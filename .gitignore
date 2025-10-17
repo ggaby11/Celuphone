@@ -26,4 +26,4 @@ dist-ssr
 # Env files
 .node_modules
 .env
-.src/supabase.js
+src/supabase.js
