@@ -5,5 +5,6 @@ npm run dev
 # React + Vite
 Create with npm create vite@lastest
 
-npm install tailwindcss @tailwindcss/vite
+npm instal @supabase/supabase-js
 npm install react-router-dom
+npm install tailwindcss @tailwindcss/vite
