@@ -15,3 +15,42 @@
 .boton-gradiente:hover {
   background: var(--color-mezcla-100);
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: black;
+}
+
+input, select, textarea {
+  border: 1px solid #4b5563e0;
+  color: #f9fafb;
+  border-radius: 0.2rem;
+  padding: 0.5rem 0.75rem;
+  outline: none;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+input:focus {
+  border-color: #14b8a6;
+  box-shadow: 0 0 0 2px rgba(20, 184, 166, 0.4);
+}
+
+input::placeholder {
+  color: #6b7280;
+}
+
+input.no-estilo {
+  all: unset; 
+  border: none;
+  background: transparent;
+  color: inherit;
+}

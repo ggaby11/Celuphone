@@ -81,7 +81,7 @@ function Home () {
                             <ProductCard key={i} product={p} />
                         ))}
                     </div>
-                    <button className="boton-gradiente h-15 w-full rounded transform text-white text-xl font-semibold hover:boton-gradiente-hover">Ver todos los productos</button>
+                    <button className="boton-gradiente h-15 w-full rounded text-white text-xl font-semibold hover:boton-gradiente-hover">Ver todos los productos</button>
                 </div>
   
             </section>
