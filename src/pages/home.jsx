@@ -1,12 +1,12 @@
 import React from 'react'
-import CardHome from "../components/card-home"
 import product1 from '../assets/Consola-juego.png'
 import product2 from '../assets/Monitor-gamer.png'
 import product3 from '../assets/CPU-cooler.png'
 import product4 from '../assets/laptop-gaming.png'
 import product5 from '../assets/Consola-juego-2.png'
+import CardHome from "../components/card-home"
 import ProductCard from "../components/productcard"
-
+import Footer from "../components/footer"
 function Home () {
     const productos = [
         {
@@ -85,6 +85,7 @@ function Home () {
                 </div>
   
             </section>
+            <Footer></Footer>
         </div>
     )
 }
