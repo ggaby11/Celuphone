@@ -9,6 +9,7 @@ import Register from './pages/register'
 import Nosotros from "./pages/nosotros"
 import Productos from "./pages/productos"
 import Contactanos from "./pages/contactanos"
+import Footer from "./components/footer"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/contactanos" element={<Contactanos/>} />
             
           </Routes>
+          <Footer/>
     </BrowserRouter>
   )
 }
