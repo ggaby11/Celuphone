@@ -44,7 +44,7 @@ function CardHome() {
   }, []);
 
   return (
-    <div className='relative w-full max-w-3xl mx-auto overflow-hidden shadow-lg'>
+    <div className='relative bg-black pt-5 pb-5 mx-auto overflow-hidden shadow-lg'>
       
       <div id='carrusel' className='flex transition-transform duration-700 ease-in-out'>
         <img src={img1} className='w-full flex-shrink-0' alt='Carrusel promo 1' />

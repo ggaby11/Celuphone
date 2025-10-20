@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-import Nav from "./components/Nav"
+import Nav from "./components/nav"
 import Sidenav from "./components/sidenav"
 
 import Home from './pages/home'

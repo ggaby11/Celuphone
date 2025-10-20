@@ -1,4 +1,17 @@
-.App {
-  width: 100%;
-  height: 100vh;
+:root {
+  --color-principal-100: #188670e0;
+  --color-principal-500: #188670;
+  --color-secundario-100: #0093ade0;
+  --color-secundario-500: #0093AD;
+  --color-mezcla-100: linear-gradient(to right, #0cb88de0, #019ba9e0);
+  --color-mezcla-500: linear-gradient(to right, #0CB88D, #019BA9);
+}
+
+.boton-gradiente {
+  background: var(--color-mezcla-500);
+  transition: 0.3s;
+}
+
+.boton-gradiente:hover {
+  background: var(--color-mezcla-100);
 }
